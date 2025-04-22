@@ -24,7 +24,7 @@ body {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #ff4d30 #ffffff;
+  scrollbar-color: #491ee7 #ffffff;
 }
 
 /* Chrome, Edge and Safari */
@@ -48,15 +48,15 @@ body {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #ff4d30;
+  background-color: #4f30ff;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #ff4d30;
+  background-color: #3056ff;
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: #ff2525;
+  background-color: #3425ff;
 }
 
 .navbar {
@@ -1468,18 +1468,18 @@ body {
 }
 
 footer {
-  background-color: #f5f5f5;
+  background: linear-gradient(to bottom, transparent 0%, #dce6f8 100%);
   padding: 10rem 0;
+  color: #010103;
 }
 
 .footer-content {
   display: grid;
-  color: #010103;
   grid-template-columns: 27fr 21fr 21fr 21fr;
   gap: 8rem;
   justify-content: center;
   text-align: left;
-  color: black;
+  color: #010103;
 }
 @media (max-width: 1100px) {
   .footer-content {
@@ -1491,104 +1491,74 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-.footer-content__1 {
+.footer-content__1, .footer-content__2 {
   list-style: none;
 }
 @media (max-width: 650px) {
-  .footer-content__1 {
+  .footer-content__1, .footer-content__2 {
     text-align: center;
   }
 }
-.footer-content__1 li a {
+.footer-content__1 li a, .footer-content__2 li a {
   text-decoration: none;
-  color: black;
+  color: #010103;
   transition: all 0.2s;
 }
-.footer-content__1 li a:hover {
-  color: #125e28;
+.footer-content__1 li a:hover, .footer-content__2 li a:hover {
+  color: #4169e1;
 }
-.footer-content__1 li:nth-child(1) {
+.footer-content__1 li:nth-child(1), .footer-content__2 li:nth-child(1) {
   font-size: 2.4rem;
-  margin-bottom: 1.5rem;
-}
-.footer-content__1 li:nth-child(1) span {
   font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
-.footer-content__1 li:nth-child(2) {
+.footer-content__1 li:nth-child(2), .footer-content__2 li:nth-child(2) {
   font-size: 1.6rem;
-  color: #a0a0a0;
+  color: #666;
   line-height: 1.7;
   margin-bottom: 3rem;
 }
-.footer-content__1 li:nth-child(3), .footer-content__1 li:nth-child(4) {
+.footer-content__1 li:nth-child(3), .footer-content__1 li:nth-child(4), .footer-content__2 li:nth-child(3), .footer-content__2 li:nth-child(4) {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   margin-bottom: 1rem;
 }
-.footer-content__2 {
-  list-style: none;
-}
-@media (max-width: 650px) {
-  .footer-content__2 {
-    text-align: center;
-  }
-}
-.footer-content__2 a {
-  text-decoration: none;
-  color: black;
-  transition: all 0.2s;
-}
-.footer-content__2 a:hover {
-  color: #125e28;
-}
-.footer-content__2 li {
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-}
-.footer-content__2 li:nth-child(1) {
-  font-size: 2.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  cursor: auto;
-}
-.footer-content__2 input {
+.footer-content__1 input, .footer-content__2 input {
   font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
-  background-color: #ececec;
-  border-width: 1px;
-  border-color: transparent;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
   padding: 10px 60px;
   outline: none;
   margin-top: 1rem;
 }
 @media (max-width: 1100px) {
-  .footer-content__2 input {
+  .footer-content__1 input, .footer-content__2 input {
     width: 100%;
   }
 }
 
 .submit-email {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: #4169e1;
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+  box-shadow: 0 10px 15px 0 rgba(65, 105, 225, 0.25);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid #4169e1;
   font-size: 1.6rem;
-  width: fit-content;
-  cursor: pointer;
   width: 100%;
+  cursor: pointer;
 }
 .submit-email:hover {
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.4);
-  background-color: #fa4226;
+  background-color: #3558c8;
+  box-shadow: 0 10px 15px 0 rgba(65, 105, 225, 0.4);
 }
 
 .hero-pages {

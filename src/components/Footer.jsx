@@ -6,25 +6,24 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__1">
               <li>
-                <span>CAR</span> Rental
+                <span>Drive</span> Away
               </li>
               <li>
-                We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+              We offer a wide selection of vehicles for every occasion. Whether it's a quick trip or a long drive, we’ve got the perfect ride for you.
               </li>
               <li>
-                <a href="tel:123456789">
-                  <i className="fa-solid fa-phone"></i> &nbsp; (123) -456-789
+                <a href="tel:1234567890">
+                  <i className="fa-solid fa-phone"></i> &nbsp; (91)123-456-7890
                 </a>
               </li>
 
               <li>
                 <a
                   href="mailto: 
-                carrental@gmail.com"
+                drive@away.com"
                 >
                   <i className="fa-solid fa-envelope"></i>
-                  &nbsp; carrental@xyz.com
+                  &nbsp;drive@away.com
                 </a>
               </li>
 
@@ -33,9 +32,9 @@ function Footer() {
                   style={{ fontSize: "14px" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://devrahuls.vercel.app/"
+                  href="/"
                 >
-                  Design with ❤️ by Rahul
+                  
                 </a>
               </li>
             </ul>
@@ -61,15 +60,15 @@ function Footer() {
 
             <ul className="footer-content__2">
               <li>Working Hours</li>
-              <li>Mon - Fri: 9:00AM - 9:00PM</li>
-              <li>Sat: 9:00AM - 19:00PM</li>
+              <li>Mon - Fri: 8:00AM - 11:59:00PM</li>
+              <li>Sat: 11:00AM - 11:59:00PM</li>
               <li>Sun: Closed</li>
             </ul>
 
             <ul className="footer-content__2">
               <li>Subscription</li>
               <li>
-                <p>Subscribe your Email address for latest news & updates.</p>
+                <p>Subscribe to our newsletter for the latest news and exclusive updates straight to your inbox</p>
               </li>
               <li>
                 <input type="email" placeholder="Enter Email Address"></input>
