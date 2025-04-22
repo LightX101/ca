@@ -1,48 +1,76 @@
-import Golf6 from "../images/cars-big/golf6.jpg";
-import AudiA1 from "../images/cars-big/audia1.jpg";
-import Toyota from "../images/cars-big/toyotacamry.jpg";
-import Bmw320 from "../images/cars-big/bmw320.jpg";
-import Benz from "../images/cars-big/benz.jpg";
-import Passat from "../images/cars-big/passatcc.jpg";
+import Nexon from "../images/cars-big/nexon.png";
+import Creta from "../images/cars-big/creta.png";
+import Ciaz from "../images/cars-big/ciaz.png";
+import XUV700 from "../images/cars-big/xuv700.jpeg";
+import HyCross from "../images/cars-big/hycross.png";
+import Seltos from "../images/cars-big/seltos.png";
 
 export const CAR_DATA = [
   [
     {
-      name: "VW Golf 6",
-      price: "37",
-      img: Golf6,
-      model: "Golf 6",
-      mark: "Volkswagen",
-      year: "2008",
-      doors: "4/5",
+      name: "Tata Nexon XZ+",
+      price: "2999",
+      img: Nexon,
+      model: "Nexon XZ+",
+      mark: "Tata",
+      year: "2022",
+      doors: "4",
       air: "Yes",
       transmission: "Manual",
+      fuel: "Petrol",
+    },
+  ],
+  [
+    {
+      name: "Hyundai Creta SX",
+      price: "3499",
+      img: Creta,
+      model: "Creta SX",
+      mark: "Hyundai",
+      year: "2023",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "Petrol",
+    },
+  ],
+  [
+    {
+      name: "Maruti Suzuki Ciaz Alpha",
+      price: "2799",
+      img: Ciaz,
+      model: "Ciaz Alpha",
+      mark: "Maruti Suzuki",
+      year: "2021",
+      doors: "4",
+      air: "Yes",
+      transmission: "Manual",
+      fuel: "Petrol",
+    },
+  ],
+  [
+    {
+      name: "Mahindra XUV700 AX5",
+      price: "4499",
+      img: XUV700,
+      model: "XUV700 AX5",
+      mark: "Mahindra",
+      year: "2023",
+      doors: "5",
+      air: "Yes",
+      transmission: "Automatic",
       fuel: "Diesel",
     },
   ],
   [
     {
-      name: "Audi A1 S-Line",
-      price: "45",
-      img: AudiA1,
-      model: "Audi",
-      mark: "A1",
-      year: "2012",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Manual",
-      fuel: "Gasoline",
-    },
-  ],
-  [
-    {
-      name: "Toyota Camry",
-      price: "30",
-      img: Toyota,
-      model: "Camry",
+      name: "Toyota Innova HyCross",
+      price: "3999",
+      img: HyCross,
+      model: "Innova HyCross",
       mark: "Toyota",
-      year: "2006",
-      doors: "4/5",
+      year: "2023",
+      doors: "5",
       air: "Yes",
       transmission: "Automatic",
       fuel: "Hybrid",
@@ -50,44 +78,16 @@ export const CAR_DATA = [
   ],
   [
     {
-      name: "BMW 320 ModernLine",
-      price: "35",
-      img: Bmw320,
-      model: "320",
-      mark: "BMW",
-      year: "2012",
-      doors: "4/5",
+      name: "Kia Seltos GTX Plus",
+      price: "3499",
+      img: Seltos,
+      model: "Seltos GTX Plus",
+      mark: "Kia",
+      year: "2022",
+      doors: "5",
       air: "Yes",
       transmission: "Manual",
-      fuel: "Diesel",
-    },
-  ],
-  [
-    {
-      name: "Mercedes-Benz GLK",
-      price: "50",
-      img: Benz,
-      model: "Benz GLK",
-      mark: "Mercedes",
-      year: "2006",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Manual",
-      fuel: "Diesel",
-    },
-  ],
-  [
-    {
-      name: "VW Passat CC",
-      price: "25",
-      img: Passat,
-      model: "Passat CC",
-      mark: "Volkswagen",
-      year: "2008",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Automatic",
-      fuel: "Gasoline",
+      fuel: "Petrol",
     },
   ],
 ];

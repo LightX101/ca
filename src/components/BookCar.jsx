@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import CarAudi from "../images/cars-big/audia1.jpg";
-import CarGolf from "../images/cars-big/golf6.jpg";
-import CarToyota from "../images/cars-big/toyotacamry.jpg";
-import CarBmw from "../images/cars-big/bmw320.jpg";
-import CarMercedes from "../images/cars-big/benz.jpg";
-import CarPassat from "../images/cars-big/passatcc.jpg";
+import Nexon from "../images/cars-big/nexon.png";
+import Creta from "../images/cars-big/creta.png";
+import Ciaz from "../images/cars-big/ciaz.png";
+import XUV700 from "../images/cars-big/xuv700.jpeg";
+import HyCross from "../images/cars-big/hycross.png";
+import Seltos from "../images/cars-big/seltos.png";
+
 
 function BookCar() {
   const [modal, setModal] = useState(false); //  class - active-modal
@@ -122,23 +123,23 @@ function BookCar() {
   // based on value name show car img
   let imgUrl;
   switch (carImg) {
-    case "Audi A1 S-Line":
-      imgUrl = CarAudi;
+    case "Tata Nexon XZ+":
+      imgUrl = Nexon ;
       break;
-    case "VW Golf 6":
-      imgUrl = CarGolf;
+    case "Hyundai Creta SX":
+      imgUrl = Creta ;
       break;
-    case "Toyota Camry":
-      imgUrl = CarToyota;
+    case "Maruti Suzuki Ciaz Alpha":
+      imgUrl = Ciaz ;
       break;
-    case "BMW 320 ModernLine":
-      imgUrl = CarBmw;
+    case "Mahindra XUV700 AX5":
+      imgUrl = XUV700 ;
       break;
-    case "Mercedes-Benz GLK":
-      imgUrl = CarMercedes;
+    case "Toyota Innova HyCross":
+      imgUrl = HyCross ;
       break;
-    case "VW Passat CC":
-      imgUrl = CarPassat;
+    case "Kia Seltos GTX Plus":
+      imgUrl = Seltos ;
       break;
     default:
       imgUrl = "";
@@ -181,14 +182,14 @@ function BookCar() {
                   </label>
                   <select value={carType} onChange={handleCar}>
                     <option>Select your car type</option>
-                    <option value="Audi A1 S-Line">Audi A1 S-Line</option>
-                    <option value="VW Golf 6">VW Golf 6</option>
-                    <option value="Toyota Camry">Toyota Camry</option>
-                    <option value="BMW 320 ModernLine">
-                      BMW 320 ModernLine
+                    <option value="Tata Nexon XZ+">Tata Nexon XZ+</option>
+                    <option value="Hyundai Creta SX">Hyundai Creta SX</option>
+                    <option value="Maruti Suzuki Ciaz Alpha">Maruti Suzuki Ciaz Alpha</option>
+                    <option value="Mahindra XUV700 AX5">
+                    Mahindra XUV700 AX5
                     </option>
-                    <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
-                    <option value="VW Passat CC">VW Passat CC</option>
+                    <option value="Toyota Innova HyCross">Toyota Innova HyCross</option>
+                    <option value="Kia Seltos GTX Plus">Kia Seltos GTX Plus</option>
                   </select>
                 </div>
 

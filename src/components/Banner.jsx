@@ -5,9 +5,9 @@ function Banner() {
         <div className="container">
           <div className="banner-content">
             <div className="banner-content__text">
-              <h2>Save big with our cheap car rental!</h2>
+              <h2>Save big on car rentals with unbeatable prices!</h2>
               <p>
-                Top Airports. Local Suppliers. <span>24/7</span> Support.
+              Available at airports, railway stations, and ports. Trusted partners and <span style={{ color: 'red' }} >24/7</span>  customer support 
               </p>
             </div>
           </div>

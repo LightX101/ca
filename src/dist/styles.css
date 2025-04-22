@@ -847,6 +847,7 @@ body {
 
 .pick-section {
   padding: 10rem 0;
+  background: linear-gradient(to bottom, #dce6f8, white);
 }
 
 .pick-container {
@@ -856,14 +857,14 @@ body {
 .pick-container__title {
   margin: 0 auto;
   text-align: center;
-  color: #2e2e2e;
+  color: black;
   max-width: 50rem;
   margin-bottom: 5rem;
 }
 .pick-container__title p {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
-  color: #a0a0a0;
+  color: black;
   line-height: 1.5;
 }
 .pick-container__title h3 {
@@ -905,7 +906,7 @@ body {
   text-align: left;
 }
 .pick-box button:hover {
-  background-color: #a8a8a8;
+  background-color: royalblue;
   color: white;
 }
 
@@ -928,7 +929,7 @@ body {
 }
 .pick-description__price {
   width: 100%;
-  background-color: #a8a8a8;
+  background-color: #125e28;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -953,12 +954,12 @@ body {
   text-align: center;
   grid-template-rows: auto;
   padding: 0.9rem 0.5rem;
-  border-bottom: 2px solid #706f7b;
-  border-right: 2px solid #706f7b;
-  border-left: 2px solid #706f7b;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
 }
 .pick-description__table__col span:nth-child(1) {
-  border-right: 2px solid #706f7b;
+  border-right: 2px solid black;
 }
 
 .cta-btn {
@@ -968,7 +969,7 @@ body {
   font-weight: 600;
   color: white;
   font-family: "Poppins", sans-serif;
-  background-color: #a8a8a8;
+  background-color: royalblue;
   padding: 1rem 1rem;
   display: flex;
   width: 100%;
@@ -978,7 +979,7 @@ body {
   box-shadow: 6px 6px 0 #efe9e9;
 }
 .cta-btn:hover {
-  background-color: #e9381d;
+  background-color: #070e6d;
 }
 
 .box-cars {
@@ -1001,7 +1002,7 @@ body {
 }
 
 .colored-button {
-  background-color: #a8a8a8 !important;
+  background-color: royalblue !important;
   color: white;
 }
 
@@ -1009,7 +1010,7 @@ body {
   width: 48px;
   height: 48px;
   border: 5px solid rgba(0, 0, 0, 0.2588235294);
-  border-bottom-color: #ff3d00;
+  border-bottom-color: royalblue;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
@@ -1069,7 +1070,7 @@ body {
   }
 }
 .banner-content__text span {
-  color: #a8a8a8;
+  color: #125e28;
   font-weight: 500;
 }
 
@@ -1116,7 +1117,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 50rem;
-  color: #2e2e2e;
+  color: black;
 }
 @media (max-width: 1000px) {
   .text-container__left {
@@ -1198,7 +1199,7 @@ body {
 .testimonials-section {
   background-color: #dce6f8;
   padding: 10rem 0;
-  color: #2e2e2e;
+  color: black;
 }
 
 .testimonials-content {
@@ -1282,7 +1283,7 @@ body {
 
 .quotes-icon {
   font-size: 6.2rem;
-  color: #a8a8a8;
+  color: #125e28;
   position: absolute;
   bottom: 33px;
   right: 60px;
@@ -1310,7 +1311,7 @@ body {
 .faq-content {
   display: flex;
   flex-direction: column;
-  color: #2e2e2e;
+  color: black;
 }
 .faq-content__title {
   display: flex;
@@ -1342,7 +1343,7 @@ body {
 .faq-box {
   display: flex;
   flex-direction: column;
-  color: #2e2e2e;
+  color: black;
   background-color: white;
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
   width: 80rem;
@@ -1396,7 +1397,7 @@ body {
 }
 
 .active-question {
-  background-color: #a8a8a8;
+  background-color: #125e28;
   color: white;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
 }
@@ -1432,7 +1433,7 @@ body {
 }
 .download-text h2 {
   font-size: 4.2rem;
-  color: #2e2e2e;
+  color: black;
 }
 .download-text p {
   font-size: 1.6rem;
@@ -1478,7 +1479,7 @@ footer {
   gap: 8rem;
   justify-content: center;
   text-align: left;
-  color: #2e2e2e;
+  color: black;
 }
 @media (max-width: 1100px) {
   .footer-content {
@@ -1500,11 +1501,11 @@ footer {
 }
 .footer-content__1 li a {
   text-decoration: none;
-  color: #2e2e2e;
+  color: black;
   transition: all 0.2s;
 }
 .footer-content__1 li a:hover {
-  color: #a8a8a8;
+  color: #125e28;
 }
 .footer-content__1 li:nth-child(1) {
   font-size: 2.4rem;
@@ -1535,11 +1536,11 @@ footer {
 }
 .footer-content__2 a {
   text-decoration: none;
-  color: #2e2e2e;
+  color: black;
   transition: all 0.2s;
 }
 .footer-content__2 a:hover {
-  color: #a8a8a8;
+  color: #125e28;
 }
 .footer-content__2 li {
   font-size: 1.6rem;
@@ -1615,7 +1616,7 @@ footer {
   width: 100%;
   height: 41rem;
   justify-content: center;
-  color: #2e2e2e;
+  color: black;
 }
 .hero-pages__text h3 {
   font-size: 3.6rem;
@@ -1626,12 +1627,12 @@ footer {
   font-weight: 600;
 }
 .hero-pages__text p a {
-  color: #2e2e2e;
+  color: black;
   text-decoration: none;
   transition: all 0.2s;
 }
 .hero-pages__text p a:hover {
-  color: #a8a8a8;
+  color: #125e28;
 }
 
 .about-main {
@@ -1670,7 +1671,7 @@ footer {
   }
 }
 .about-main__text {
-  color: #2e2e2e;
+  color: black;
   display: flex;
   flex-direction: column;
 }
@@ -1788,7 +1789,7 @@ footer {
   font-size: 2.7rem;
   gap: 1rem;
   align-items: center;
-  color: #a8a8a8;
+  color: #125e28;
   white-space: nowrap;
 }
 
@@ -1841,7 +1842,7 @@ footer {
   padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
-  color: #2e2e2e;
+  color: black;
 }
 .models-div__box__descr__name-price {
   display: flex;
@@ -1894,7 +1895,7 @@ footer {
   text-align: left;
 }
 .models-div__box__descr__name-price__details span i {
-  color: #2e2e2e;
+  color: black;
 }
 .models-div__box__descr__name-price__btn {
   background-color: #ff4d30;
@@ -1958,7 +1959,7 @@ footer {
   width: 100%;
 }
 .team-container__box__descr {
-  color: #2e2e2e;
+  color: black;
   padding: 3rem;
 }
 .team-container__box__descr h3 {
@@ -1975,7 +1976,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin: 0 auto;
-  color: #2e2e2e;
+  color: black;
   padding: 10rem 2rem;
   background-image: url("/src/images/banners/bg-contact.png");
   background-size: auto;
@@ -2014,14 +2015,14 @@ footer {
 }
 .contact-div__text a {
   text-decoration: none;
-  color: #2e2e2e;
+  color: black;
   font-size: 1.6rem;
   font-weight: 500;
   transition: all 0.2s;
   margin-bottom: 0.5rem;
 }
 .contact-div__text a:hover {
-  color: #a8a8a8;
+  color: #125e28;
 }
 .contact-div__form {
   display: flex;
@@ -2037,7 +2038,7 @@ footer {
   margin-bottom: 1rem;
 }
 .contact-div__form form label b {
-  color: #a8a8a8;
+  color: #125e28;
 }
 .contact-div__form form input {
   background-color: #f2f2f2;
