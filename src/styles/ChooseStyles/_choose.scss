@@ -74,18 +74,18 @@
       text-decoration: none;
       color: white;
       font-weight: 700;
-      background-color: #ff4d30;
+      background-color: #4169e1;
       padding: 1.5rem 2.5rem;
       border-radius: 0.3rem;
-      box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+      box-shadow: 0 10px 15px 0 rgba(21, 40, 211, 0.35);
       transition: all 0.3s;
-      border: 2px solid #ff4d30;
+      border: 2px solid #4169e1;
       font-size: $p-size;
       width: fit-content;
 
       &:hover {
-        box-shadow: 0 10px 15px 0 rgb(255 83 48 / 60%);
-        background-color: #fa4226;
+        box-shadow: 0 10px 15px 0 rgba(21, 40, 211, 0.35);
+        background-color: #072da0;
       }
     }
   }

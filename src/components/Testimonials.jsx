@@ -1,5 +1,5 @@
-import Img2 from "../images/testimonials/pfp1.jpg";
-import Img3 from "../images/testimonials/pfp2.jpg";
+import Img2 from "../images/testimonials/pfp1.png";
+import Img3 from "../images/testimonials/pfp2.png";
 
 function Testimonials() {
   return (
@@ -8,13 +8,10 @@ function Testimonials() {
         <div className="container">
           <div className="testimonials-content">
             <div className="testimonials-content__title">
-              <h4>Reviewed by People</h4>
-              <h2>Client's Testimonials</h2>
+              <h4>Trusted by Many</h4>
+              <h2>What Our Clients Say</h2>
               <p>
-                Discover the positive impact we've made on the our clients by
-                reading through their testimonials. Our clients have experienced
-                our service and results, and they're eager to share their
-                positive experiences with you.
+              Don't just take our word for it—hear directly from the people who've experienced our services! Our clients are passionate about the difference we've made, and their testimonials speak volumes. Read their stories and see why we’re the go-to choice for exceptional service and results.
               </p>
             </div>
 
@@ -24,16 +21,14 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "We rented a car from this website and had an amazing
-                  experience! The booking was easy and the rental rates were
-                  very affordable. "
+                "Renting a car from this website was a smooth experience. The booking process was simple, and the car was in excellent condition. Will definitely recommend!"
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
                     <span>
-                      <h4>Parry Hotter</h4>
-                      <p>Belgrade</p>
+                      <h4>Aarav Patel</h4>
+                      <p>Mumbai</p>
                     </span>
                   </div>
                 </div>
@@ -44,15 +39,14 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                "Our experience with this car rental website was fantastic. The booking process was simple, and the car was in great condition, making our trip even more enjoyable. Affordable rates and excellent service—highly recommend!"
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
                     <span>
-                      <h4>Ron Rizzly</h4>
-                      <p>Novi Sad</p>
+                      <h4>Rohan Sharma</h4>
+                      <p>Delhi</p>
                     </span>
                   </div>
                 </div>

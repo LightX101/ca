@@ -7,11 +7,9 @@ function Download() {
       <section className="download-section">
         <div className="container">
           <div className="download-text">
-            <h2>Download our app to get most out of it</h2>
+            <h2>Enhance your experience! Download our app now.</h2>
             <p>
-              Thrown shy denote ten ladies though ask saw. Or by to he going
-              think order event music. Incommode so intention defective at
-              convinced. Led income months itself and houses you.
+            Ready to Hit the Road? Download Our App Now for Seamless Car Rentals, Exclusive Deals, and the Ultimate Convenience at Your Fingertips!
             </p>
             <div className="download-text__btns">
               <img alt="download_img" src={Img2} />

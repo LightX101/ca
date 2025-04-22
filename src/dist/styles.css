@@ -1147,18 +1147,18 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: #4169e1;
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  box-shadow: 0 10px 15px 0 rgba(21, 40, 211, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid #4169e1;
   font-size: 1.6rem;
   width: fit-content;
 }
 .text-container__left a:hover {
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0 rgba(21, 40, 211, 0.35);
+  background-color: #072da0;
 }
 .text-container__right {
   display: flex;
