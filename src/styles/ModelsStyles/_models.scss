@@ -25,29 +25,34 @@
     border: 1px solid #d5d5d5;
     border-radius: 0.3rem;
     display: flex;
-    width: 35rem;
     flex-direction: column;
+    width: 35rem;
+    height: 60rem; // fixed height for consistent card size
+    overflow: hidden;
 
     @media (max-width: 400px) {
-      grid-template-columns: 1fr;
       width: 100%;
     }
 
     &__img {
       width: 100%;
-      height: auto;
+      height: 27rem;
       border-radius: 0.3rem;
+      background-color: black; // optional: black background if image doesn't cover
 
       img {
         width: 100%;
-        height: 27rem;
+        height: 100%;
+        object-fit: cover;
       }
     }
 
     &__descr {
+      flex: 1;
       padding: 2rem 3rem;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       color: $text-black;
 
       &__name-price {
@@ -96,7 +101,6 @@
           grid-template-columns: 1fr 1fr;
           row-gap: 2rem;
           column-gap: 7rem;
-          margin-top: 2.5rem;
           margin: 2rem auto;
           padding-bottom: 2.5rem;
           border-bottom: 1px solid #c6c6c6;
@@ -114,18 +118,20 @@
         }
 
         &__btn {
-          background-color: #ff4d30;
+          background-color: #304fff;
           padding: 1.8rem 3rem;
           border-radius: 0.3rem;
-          box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+          box-shadow: 0 10px 15px 0 rgba(22, 6, 240, 0.35);
           transition: all 0.3s;
-          border: 2px solid #ff4d30;
+          border: 2px solid #1125dd;
           font-size: 1.8rem;
           cursor: pointer;
+          margin-top: 2rem; // Added spacing for the button
+          margin-bottom: 1rem; // Added margin to space it from the bottom content
 
           &:hover {
-            box-shadow: 0 10px 15px 0 rgb(255 83 48 / 60%);
-            background-color: #fa4226;
+            box-shadow: 0 10px 15px 0 rgba(56, 4, 153, 0.6); 
+            background-color: #3b079c;
           }
 
           a {

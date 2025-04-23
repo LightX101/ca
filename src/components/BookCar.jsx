@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Nexon from "../images/cars-big/nexon.png";
 import Creta from "../images/cars-big/creta.png";
 import Ciaz from "../images/cars-big/ciaz.png";
-import XUV700 from "../images/cars-big/xuv700.jpeg";
+import XUV700 from "../images/cars-big/xuv700.png";
 import HyCross from "../images/cars-big/hycross.png";
 import Seltos from "../images/cars-big/seltos.png";
 

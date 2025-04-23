@@ -1,7 +1,7 @@
 import Nexon from "../images/cars-big/nexon.png";
 import Creta from "../images/cars-big/creta.png";
 import Ciaz from "../images/cars-big/ciaz.png";
-import XUV700 from "../images/cars-big/xuv700.jpeg";
+import XUV700 from "../images/cars-big/xuv700.png";
 import HyCross from "../images/cars-big/hycross.png";
 import Seltos from "../images/cars-big/seltos.png";
 
@@ -14,7 +14,7 @@ export const CAR_DATA = [
       model: "Nexon XZ+",
       mark: "Tata",
       year: "2022",
-      doors: "4",
+      persons: "5",
       air: "Yes",
       transmission: "Manual",
       fuel: "Petrol",
@@ -28,7 +28,7 @@ export const CAR_DATA = [
       model: "Creta SX",
       mark: "Hyundai",
       year: "2023",
-      doors: "4/5",
+      persons: "5",
       air: "Yes",
       transmission: "Automatic",
       fuel: "Petrol",
@@ -40,9 +40,9 @@ export const CAR_DATA = [
       price: "2799",
       img: Ciaz,
       model: "Ciaz Alpha",
-      mark: "Maruti Suzuki",
+      mark: "Maruti S",
       year: "2021",
-      doors: "4",
+      persons: "5",
       air: "Yes",
       transmission: "Manual",
       fuel: "Petrol",
@@ -56,7 +56,7 @@ export const CAR_DATA = [
       model: "XUV700 AX5",
       mark: "Mahindra",
       year: "2023",
-      doors: "5",
+      persons: "7",
       air: "Yes",
       transmission: "Automatic",
       fuel: "Diesel",
@@ -70,7 +70,7 @@ export const CAR_DATA = [
       model: "Innova HyCross",
       mark: "Toyota",
       year: "2023",
-      doors: "5",
+      persons: "7",
       air: "Yes",
       transmission: "Automatic",
       fuel: "Hybrid",
@@ -84,7 +84,7 @@ export const CAR_DATA = [
       model: "Seltos GTX Plus",
       mark: "Kia",
       year: "2022",
-      doors: "5",
+      persons: "5",
       air: "Yes",
       transmission: "Manual",
       fuel: "Petrol",
