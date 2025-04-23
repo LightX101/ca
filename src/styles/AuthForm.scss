@@ -1,0 +1,88 @@
+/* Global AuthPage style */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to top, #3b8d99, #d5dce4), url("../images/login/login-bg.png"); /* New gradient with background image */
+    background-size: cover; /* Make the image cover the entire container */
+    background-position: center center; /* Center the background image */
+    padding: 2rem;
+    position: relative; /* Ensure the background gradient and image cover full height */
+    overflow: hidden;
+  }
+  
+  /* Container for login/signup forms */
+  .auth-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 3rem;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    position: relative; /* Keeps the form above the gradient */
+  }
+  
+  /* Style for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  
+    h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #ffffff;
+      margin-bottom: 1.5rem;
+    }
+  
+    input {
+      padding: 1rem;
+      font-size: 1.1rem;
+      border: 1px solid #9bbacb; /* Lighter border color */
+      border-radius: 10px;
+      outline: none;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+  
+      &::placeholder {
+        color: #d1e4ed;
+      }
+  
+      &:focus {
+        border-color: #69b0a0; /* New focus border color */
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+    }
+  
+    button {
+      padding: 1rem;
+      font-size: 1.2rem;
+      background-color: #4f9bb5; /* Soft blue button */
+      color: #ffffff;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+  
+      &:hover {
+        background-color: #35899e; /* Darker blue on hover */
+      }
+    }
+  
+    p {
+      text-align: center;
+      color: #ffffff;
+      margin-top: 1.5rem;
+  
+      a {
+        color: #ff8e00; /* A warm golden color */
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
