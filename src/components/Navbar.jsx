@@ -38,7 +38,7 @@ function Navbar() {
             </li>
             <li>
               <Link onClick={openNav} to="/testimonials">
-                Testimonials
+                Clients
               </Link>
             </li>
             <li>
@@ -83,7 +83,7 @@ function Navbar() {
             <li>
               {" "}
               <Link className="testi-link" to="/testimonials">
-                Testimonials
+                Clients
               </Link>
             </li>
             <li>
