@@ -51,7 +51,7 @@
       margin-bottom: 0.5rem;
 
       &:hover {
-        color: $text-orange;
+        color: #2a4dbf; // royal blue hover
       }
     }
   }
@@ -70,7 +70,7 @@
         margin-bottom: 1rem;
 
         b {
-          color: $text-orange;
+          color: #2a4dbf; // royal blue asterisk
         }
       }
 
@@ -94,20 +94,20 @@
       }
 
       button {
-        background-color: #ff4d30;
+        background-color: #2a4dbf; // royal blue
         padding: 1.8rem 3rem;
         border-radius: 0.3rem;
-        box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+        box-shadow: 0 10px 15px 0 rgba(42, 77, 191, 0.35);
         transition: all 0.3s;
-        border: 2px solid #ff4d30;
+        border: 2px solid #2a4dbf;
         color: white;
         font-size: 1.8rem;
         font-weight: 600;
         cursor: pointer;
 
         &:hover {
-          box-shadow: 0 10px 15px 0 rgb(255 83 48 / 60%);
-          background-color: #fa4226;
+          box-shadow: 0 10px 15px 0 rgba(42, 77, 191, 0.6);
+          background-color: #1d3cb1;
         }
       }
     }

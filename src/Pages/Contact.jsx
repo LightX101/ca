@@ -11,20 +11,22 @@ function Contact() {
             <div className="contact-div__text">
               <h2>Need additional information?</h2>
               <p>
-                A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
-                years of experience.
+                At DriveNow Rentals, we specialize in offering reliable,
+                comfortable, and affordable car rental solutions across India.
+                Whether you're planning a weekend getaway, a business trip, or
+                daily commutes, we’ve got the perfect vehicle for you. With a
+                decade of experience, our team ensures a seamless booking
+                experience, well-maintained vehicles, and 24/7 customer support.
+                Your journey is our priority.
               </p>
               <a href="/">
-                <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
+                <i className="fa-solid fa-phone"></i>&nbsp; (91)123-456-7890
               </a>
               <a href="/">
-                <i className="fa-solid fa-envelope"></i>&nbsp;
-                carrental@xyz.com
+                <i className="fa-solid fa-envelope"></i>&nbsp; drive@away.com
               </a>
               <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Bengaluru,
-                Karnatka
+                <i className="fa-solid fa-location-dot"></i>&nbsp; Delhi,India
               </a>
             </div>
             <div className="contact-div__form">
@@ -32,7 +34,7 @@ function Contact() {
                 <label>
                   Full Name <b>*</b>
                 </label>
-                <input type="text" placeholder='E.g: "Joe Shmoe"'></input>
+                <input type="text" placeholder='E.g: abcde fghij'></input>
 
                 <label>
                   Email <b>*</b>
@@ -56,10 +58,10 @@ function Contact() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Contact us now to reserve your vehicle</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>(91)123-456-7890</h3>
               </span>
             </div>
           </div>
