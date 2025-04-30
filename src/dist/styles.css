@@ -1973,8 +1973,7 @@ footer {
 }
 @media (max-width: 950px) {
   .contact-div__text {
-    margin: 0 auto;
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem;
   }
 }
 .contact-div__text h2 {
@@ -2016,22 +2015,24 @@ footer {
 .contact-div__form form label b {
   color: #2a4dbf;
 }
-.contact-div__form form input {
-  background-color: #f2f2f2;
-  padding: 19px 30px 19px 30px;
+.contact-div__form form input,
+.contact-div__form form textarea {
+  background-color: #e0ecff;
+  padding: 1.2rem 2rem;
   font-size: 1.6rem;
-  border: none;
+  border: 1px solid #619ce9;
+  border-radius: 0.3rem;
   outline: none;
   margin-bottom: 2.3rem;
 }
+.contact-div__form form input:focus,
+.contact-div__form form textarea:focus {
+  border: 2px solid #2a4dbf;
+  box-shadow: 0 0 5px rgba(42, 77, 191, 0.4);
+}
 .contact-div__form form textarea {
-  background-color: #f2f2f2;
   height: 18rem;
-  padding: 19px 30px 19px 30px;
-  font-size: 1.6rem;
-  border: none;
-  outline: none;
-  margin-bottom: 2.5rem;
+  background-color: #d3edf1;
 }
 .contact-div__form form button {
   background-color: #2a4dbf;
@@ -2040,7 +2041,7 @@ footer {
   box-shadow: 0 10px 15px 0 rgba(42, 77, 191, 0.35);
   transition: all 0.3s;
   border: 2px solid #2a4dbf;
-  color: white;
+  color: #f7eaea;
   font-size: 1.8rem;
   font-weight: 600;
   cursor: pointer;

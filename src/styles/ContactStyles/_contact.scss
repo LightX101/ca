@@ -1,5 +1,12 @@
 @use "../global" as *;
 
+$contact-royal-blue: #2a4dbf;
+$contact-royal-blue-dark: #1d3cb1;
+$contact-royal-blue-light: #619ce9;
+$contact-input-bg: #e0ecff;
+$contact-textarea-bg: #d3edf1;
+$contact-button-text-color: #f7eaea;
+
 .contact-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -24,14 +31,14 @@
     max-width: 41rem;
 
     @media (max-width: 950px) {
-      margin: 0 auto;
-      margin-bottom: 2rem;
+      margin: 0 auto 2rem;
     }
 
     h2 {
       font-size: $h2-size;
       line-height: 1.3;
       margin-bottom: 2rem;
+      
     }
 
     p {
@@ -51,7 +58,7 @@
       margin-bottom: 0.5rem;
 
       &:hover {
-        color: #2a4dbf; // royal blue hover
+        color: $contact-royal-blue;
       }
     }
   }
@@ -70,44 +77,46 @@
         margin-bottom: 1rem;
 
         b {
-          color: #2a4dbf; // royal blue asterisk
+          color: $contact-royal-blue;
         }
       }
 
-      input {
-        background-color: #f2f2f2;
-        padding: 19px 30px 19px 30px;
+      input,
+      textarea {
+        background-color: $contact-input-bg;
+        padding: 1.2rem 2rem;
         font-size: $p-size;
-        border: none;
+        border: 1px solid $contact-royal-blue-light;
+        border-radius: 0.3rem;
         outline: none;
         margin-bottom: 2.3rem;
+
+        &:focus {
+          border: 2px solid $contact-royal-blue;
+          box-shadow: 0 0 5px rgba(42, 77, 191, 0.4);
+        }
       }
 
       textarea {
-        background-color: #f2f2f2;
         height: 18rem;
-        padding: 19px 30px 19px 30px;
-        font-size: $p-size;
-        border: none;
-        outline: none;
-        margin-bottom: 2.5rem;
+        background-color: $contact-textarea-bg;
       }
 
       button {
-        background-color: #2a4dbf; // royal blue
+        background-color: $contact-royal-blue;
         padding: 1.8rem 3rem;
         border-radius: 0.3rem;
         box-shadow: 0 10px 15px 0 rgba(42, 77, 191, 0.35);
         transition: all 0.3s;
-        border: 2px solid #2a4dbf;
-        color: white;
+        border: 2px solid $contact-royal-blue;
+        color: $contact-button-text-color;
         font-size: 1.8rem;
         font-weight: 600;
         cursor: pointer;
 
         &:hover {
           box-shadow: 0 10px 15px 0 rgba(42, 77, 191, 0.6);
-          background-color: #1d3cb1;
+          background-color: $contact-royal-blue-dark;
         }
       }
     }
