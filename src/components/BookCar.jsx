@@ -91,11 +91,48 @@ function BookCar() {
   }, [modal]);
 
   // confirm modal booking
-  const confirmBooking = (e) => {
+  const confirmBooking = async (e) => {
     e.preventDefault();
     setModal(!modal);
-    const doneMsg = document.querySelector(".booking-done");
-    doneMsg.style.display = "flex";
+    e.preventDefault();
+    setModal(!modal);
+  
+    const bookingData = {
+      carType,
+      pickUp,
+      dropOff,
+      pickTime,
+      dropTime,
+      name,
+      lastName,
+      phone,
+      age,
+      email,
+      address,
+      city,
+      zipcode
+    };
+  
+    try {
+      const response = await fetch('http://localhost:5000/api/bookings', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(bookingData)
+      });
+  
+      const result = await response.json();
+      if (response.ok) {
+        console.log("Booking successful:", result.message);
+        const doneMsg = document.querySelector(".booking-done");
+        doneMsg.style.display = "flex";
+      } else {
+        alert("Booking failed: " + result.message);
+      }
+    } catch (error) {
+      console.error("Error submitting booking:", error);
+    }
   };
 
   // taking value of booking inputs
@@ -145,6 +182,21 @@ function BookCar() {
       imgUrl = "";
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
   // hide message
   const hideMessage = () => {
     const doneMsg = document.querySelector(".booking-done");
@@ -185,9 +237,7 @@ function BookCar() {
                     <option value="Tata Nexon XZ+">Tata Nexon XZ+</option>
                     <option value="Hyundai Creta SX">Hyundai Creta SX</option>
                     <option value="Maruti Suzuki Ciaz Alpha">Maruti Suzuki Ciaz Alpha</option>
-                    <option value="Mahindra XUV700 AX5">
-                    Mahindra XUV700 AX5
-                    </option>
+                    <option value="Mahindra XUV700 AX5">Mahindra XUV700 AX5</option>
                     <option value="Toyota Innova HyCross">Toyota Innova HyCross</option>
                     <option value="Kia Seltos GTX Plus">Kia Seltos GTX Plus</option>
                   </select>
